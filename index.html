@@ -66,3 +66,152 @@
           <sup>2</sup> Tiwaki Co.Ltd. <br>
         </div>
        
+<!--=================Tabs==========================-->
+        <ul id="tabs">
+          <li><a href="#materials" name="#tab1">Materials</a></li>
+          <li><a href="#networkdetails" name="#tab2">Network Details</a></li>
+          <li><a href="#results" name="#tab3">Results</a></li>
+          <li><a href="#citation" name="#tab4">Citation</a></li>
+          <li><a href="#related_work" name="#tab5">Related Work</a></li>
+      </div>
+      <br>
+      <!--=================Teasers==========================-->
+      <div id="img_intro_examples" class="img_container">
+        <center><img src="./src/teaser.png" border="0" width="80%"></center>
+      </div>
+      <div class="section">
+        <p style="text-align:justify"><b>The BasicVSR framework</b>. BasicVSR is a simple yet efficient baseline for
+          video super-resolution. It
+          consists of only generic components such as residual blocks and optical flow, but outperforms existing state
+          of the arts with fewer parameters and faster inference speed. Its simplicity enables the possibility of
+          serving as a backbone where sophisticated components can be added to it for further improvement.</p>
+      </div>
+
+      <!--=================Highlights==========================-->
+      <div class="section abstract">
+        <h2>Highlights</h2>
+        <ol>
+          <li>BasicVSR outperforms existing works with fewer parameters and faster speed. It can serve as a strong
+            baseline for video super-resolution.</li>
+          <li>We build upon BasicVSR and propose IconVSR with two novel components. It outperforms our strong BasicVSR
+            with similar speed.
+          </li>
+        </ol>
+      </div>
+      <!--=================Materials==========================-->
+      <div class="section materials" , id="materials">
+        <h2>Materials</h2>
+        <table width="100%" align="center" border=none cellspacing="0" cellpadding="30">
+          <tr>
+            <td width="60%">
+              <center>
+                <a href="https://arxiv.org/abs/2012.02181" target="_blank" class="imageLink"><img
+                    src="./src/thumbnail.png" , width="52%"></a><br><br>
+                <a href="https://arxiv.org/abs/2012.02181" target="_blank">Paper</a>
+              </center>
+            </td>
+            <td width="40%" valign="middle">
+              <center>
+                <a href="https://github.com/ckkelvinchan/BasicVSR-IconVSR" target="_blank" class="imageLink"><img
+                    src="../icon_github.png" , width="50%"></a><br><br>
+                <a href="https://github.com/ckkelvinchan/BasicVSR-IconVSR" target="_blank">Codes</a>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!--=================Abstract==========================-->
+      <div class="section abstract">
+        <h2>Abstract</h2>
+        <br>
+        <p style="text-align:justify">
+          Video super-resolution (VSR) approaches tend to have more components than the image counterparts as they need
+          to exploit
+          the additional temporal dimension. Complex designs are not uncommon. In this study, we wish to untangle the
+          knots and
+          reconsider some most essential components for VSR guided by four basic functionalities, i.e., Propagation,
+          Alignment,
+          Aggregation, and Upsampling. By reusing some existing components added with minimal redesigns, we show a
+          succinct
+          pipeline, BasicVSR, that achieves appealing improvements in terms of speed and restoration quality in
+          comparison to many
+          state-of-the-art algorithms. We conduct systematic analysis to explain how such gain can be obtained and
+          discuss the
+          pitfalls. We further show the extensibility of BasicVSR by presenting an information refill mechanism and a
+          coupled
+          propagation scheme to facilitate information aggregation. The BasicVSR and its extension, IconVSR, can serve
+          as strong
+          baselines for future VSR approaches.
+        </p>
+      </div>
+
+      <!--=================Network Details==========================-->
+      <div class="section" , id="networkdetails">
+        <h2> Network Details and IconVSR</h2>
+        <p style="text-align:justify">
+          <b>Left:</b> The propagation branches in BasicVSR and IconVSR; <b>Right:</b> The proposed components in
+          IconVSR. See our paper</a> for more details.
+        </p>
+        <center>
+          <div class="leftView">
+            <div class="mask" style="width:60px;height:10px"></div>
+            <img class='small' style="width: 100%;" src="./src/details.png">
+          </div>
+        </center>
+
+      </div>
+
+      <!--=================Results==========================-->
+      <div class="section" , id="results">
+        <h2>Results</h2>
+        <p style="text-align:justify">
+          <b>Results of 4x super-resolution:</b> BasicVSR and IconVSR reconstruct finer details when compared to
+          existing state of the arts. With information-refill and coupled propagation, IconVSR further restores sharper
+          edges and more details.
+        </p>
+        <div id="results" class="img_container">
+          <center>
+            <div class="mask" style="width:30px;height:10px"></div>
+            <img class='small' style="width: 100%;" src="./src/results.png">
+          </center>
+        </div>
+        <br>
+
+
+      </div>
+      <!--=================Citation==========================-->
+      <div class="section citation" , id="citation">
+        <h2>Citation</h2>
+        <div class="section bibtex">
+          <pre>@InProceedings{chan2021basicvsr,
+  author = {Chan, Kelvin CK and Wang, Xintao and Yu, Ke and Dong, Chao and Loy, Chen Change},
+  title = {BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond},
+  booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year = {2021}
+}
+          </pre>
+        </div>
+      </div>
+      <div class="section" , id="related_work">
+        <h2>Related Work</h2>
+        <p style="text-align:justify">
+        <ol>
+          <li><b><a href="https://ckkelvinchan.github.io/projects/BasicVSR++">
+                BasicVSR++</a></b>: BasicVSR++ is built upon our BasicVSR with improvements in propgation and alignment.
+            It obtains three champions and one runner-up in NTIRE 2021 Video Restoration and Enhancement Challenge.</li>
+          <li><b><a href="https://ckkelvinchan.github.io/projects/GLEAN">
+                GLEAN</a></b>: GLEAN is our attempt in image super-resolution that leverages a pre-trained StyleGAN as a
+            generative latent bank.</li>
+        </ol>
+        </p>
+      </div>
+      <!--=================Contact==========================-->
+      <div class="section contact">
+        <h2 id="contact">Contact</h2>
+        <p style="text-align:justify">If you have any question, please contact Kelvin Chan at
+          <strong>chan0899@e.ntu.edu.sg</strong>.</p>
+      </div>
+</body>
+
+</html>
