@@ -237,6 +237,12 @@ a:active {
   margin: 10px 0;
 }
 
+.head h2 {
+  font-size: 16pt;
+  line-height: 27pt;
+  margin: 10px 0;
+}
+
 .head h1 a {
   text-decoration: none;
 }
