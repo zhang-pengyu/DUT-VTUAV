@@ -46,20 +46,127 @@
         <h1>
           <font color="Tomato">VTUAV</font>--Visible-Thermal UAV Tracking: A Large-Scale Benchmark and New Baseline
         </h1>
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <style>
-                div {
-                    width: 300px;
-                    height: 200px;
-                    margin: 100px auto;
-                    background: url(http://up.deskcity.org/pic_360/20/70/73/2070733e9322826869576bb01aee40d8.jpg) no-repeat;
-                    background-size: 300px 200px;
-                }
-            </style>
-        </head>
+        <style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+    .jumbotron-bg {
+        background-image: linear-gradient(rgba(55, 55, 55, 0.2), rgba(55, 55, 55, 0.2)), url("logo.jpg");
+        height: 375px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: -0.8rem;
+        margin-bottom: 3rem;
+    }
+    .jumbotron-bg-content button:hover {
+        background-color: #555;
+        color: white;
+    }
+    .cards p {
+        color: #777777;
+    }
+    .col-md-4 {
+        margin-top: 0.7rem;
+    }
+    @media (max-width: 10000px) {
+        .jb-h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+        }
+        .jb-p {
+            font-size: 1.35rem;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+        .jumbotron-bg-content {
+            text-align: center;
+            position: relative;
+            transform: translate(0%, 65%);
+            color: white;
+        }
+        .jumbotron-bg-content button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 36px;
+            margin: 0 0.5em 0 0.5em;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    @media (max-width: 1000px) {
+        .jb-h2 {
+            font-size: 2.0rem;
+            font-weight: 600;
+            letter-spacing: 1.0px;
+        }
+        .jb-p {
+            font-size: 1.0rem;
+            font-weight: 300;
+            letter-spacing: 0.4px;
+        }
+        .jumbotron-bg-content {
+            text-align: center;
+            position: relative;
+            transform: translate(0%, 65%);
+            color: white;
+        }
+        .jumbotron-bg-content button {
+            font-size: 0.8rem;
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 10px 30px;
+            margin: 0 0.5em 0 0.5em;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    @media (max-width: 700px) {
+        .jb-h2 {
+            font-size: 1.70rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .jb-p {
+            font-size: 1.0rem;
+            font-weight: 300;
+            letter-spacing: 0.2px;
+        }
+        .jumbotron-bg-content {
+            text-align: center;
+            position: relative;
+            transform: translate(0%, 55%);
+            color: white;
+        }
+        .jumbotron-bg-content button {
+            font-size: 0.88rem;
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 7px 17px;
+            margin: 0 0.5em 0 0.5em;
+            color: black;
+            background-color: #ddd;
+            text-align: center;
+            cursor: pointer;
+        }
+        #pub-pic {
+            display: none;
+        }
+        .cards p {
+            font-size: 14px;
+        }
+    }
+</style>
 
         <!--=================Authors==========================-->
         <div class="authors">
