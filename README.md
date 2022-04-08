@@ -14,10 +14,15 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 
 # Results (Files will be comming soon...)
 We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term and long-term subsets.
-
+## Results for RGB Trackers on short-term subset
 ![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_ST.png)
 
+## Results for RGB Trackers on long-term subset
 ![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_LT.png)
+
+## Results for RGB-T Trackers on short-term subset
+
+## Results for RGB-T Trackers on long-term subset
 
 # Evaluation toolkit (comming soon...)
 
