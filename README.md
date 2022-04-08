@@ -14,6 +14,7 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 
 # Results (Files will be comming soon...)
 
+# Evaluation toolkit (comming soon...)
 
 # Reference
 If you find this benchmark useful, please cite
