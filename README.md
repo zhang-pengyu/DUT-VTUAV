@@ -13,6 +13,11 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 * **_Hierarchical attribute annotation_**: Sequence-level attribute annotation for 13 typical challenges. Additionally, we provide frame-level attribute for training challenge-aware trackers.
 
 # Results (Files will be comming soon...)
+We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term and long-term subsets.
+
+![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_ST.pdf)
+
+![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_LT.pdf)
 
 # Evaluation toolkit (comming soon...)
 
