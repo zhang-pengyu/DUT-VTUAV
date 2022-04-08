@@ -22,8 +22,23 @@ We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term a
 
 ## Results for RGB-T Trackers on short-term subset
 
+|  | MSR | MPR |
+| ------ | ------ | ------ |
+| DAFNet | 45.8 | 62.0 |
+| ADRNet | 46.6 | 62.2 |
+| FSRPN | 54.4 | 65.3 |
+| mfDiMP | 55.4 | 67.3 |
+| HMFT | 62.7 | 75.8 |
 ## Results for RGB-T Trackers on long-term subset
 
+|  | MSR | MPR |
+| ------ | ------ | ------ |
+| ADRNet | 17.5 | 23.5 |
+| DAFNet | 18.8 | 25.3 |
+| FSRPN | 27.2 | 31.5 |
+| mfDiMP | 31.4 | 36.6 |
+| HMFT | 35.5 | 41.4 |
+| HMFT_LT | 46.1 | 53.6 |
 # Evaluation toolkit (comming soon...)
 
 # Reference
