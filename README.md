@@ -12,6 +12,9 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 * **_Multi-task evaluation_**: Our benchmark is designed for evaluating both short-term tracking, long-term tracking and tracking with segmentation.
 * **_Hierarchical attribute annotation_**: Sequence-level attribute annotation for 13 typical challenges. Additionally, we provide frame-level attribute for training challenge-aware trackers.
 
+# Results (Files will be comming soon...)
+
+
 # Reference
 If you find this benchmark useful, please cite
 
