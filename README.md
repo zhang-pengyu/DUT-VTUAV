@@ -7,7 +7,10 @@ We release a large-scale Benchmark for Visble-thermal UAV Tracking.
 * Our paper is accepted by CVPR2022!!
 
 # Main Feature
-
+* **_Large-scale_**: We collected nearly 1.7 million well-aligned RGB-T image pairs with 500 sequences for unveiling the power of RGB-T tracking.
+* **_High-diversity_**:13 sub-classes and 15 scenes cross 2 cities.
+* **_Multi-task evaluation_**: Our benchmark is designed for evaluating both short-term tracking, long-term tracking and tracking with segmentation.
+* **_Hierarchical attribute annotation_**: Sequence-level attribute annotation for 13 typical challenges. Additionally, we provide frame-level attribute for training challenge-aware trackers.
 
 # Reference
 If you find this benchmark useful, please cite
