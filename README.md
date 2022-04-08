@@ -14,14 +14,13 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 
 # Results (Files will be comming soon...)
 We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term and long-term subsets.
-## Results for RGB Trackers on short-term subset
+## Results for RGB trackers on short-term subset
 ![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_ST.png)
 
-## Results for RGB Trackers on long-term subset
+## Results for RGB trackers on long-term subset
 ![alt text](https://github.com/zhang-pengyu/DUT-VTUAV/blob/main/figs/RGB_SOTA_LT.png)
 
-## Results for RGB-T Trackers on short-term subset
-
+## Results for RGB-T trackers on short-term subset
 |  | MSR | MPR |
 | ------ | ------ | ------ |
 | DAFNet | 45.8 | 62.0 |
@@ -29,8 +28,7 @@ We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term a
 | FSRPN | 54.4 | 65.3 |
 | mfDiMP | 55.4 | 67.3 |
 | HMFT | 62.7 | 75.8 |
-## Results for RGB-T Trackers on long-term subset
-
+## Results for RGB-T trackers on long-term subset
 |  | MSR | MPR |
 | ------ | ------ | ------ |
 | ADRNet | 17.5 | 23.5 |
