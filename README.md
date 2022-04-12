@@ -11,7 +11,12 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 * **_High-diversity_**:13 sub-classes and 15 scenes cross 2 cities.
 * **_Multi-task evaluation_**: Our benchmark is designed for evaluating both short-term tracking, long-term tracking and tracking with segmentation.
 * **_Hierarchical attribute annotation_**: Sequence-level attribute annotation for 13 typical challenges. Additionally, we provide frame-level attribute for training challenge-aware trackers.
-
+# Download from google Drive (python and gdown are required)
+```
+import gdown
+url = "https://drive.google.com/drive/folders/1GwYNPcrkUM-gVDAObxNqERi_2Db7okjP?usp=sharing"
+gdown.download_folder(url, quiet=False, use_cookies=False)
+```
 # Results (Files will be comming soon...)
 We evaluate both 18 public RGB trackers and 5 RGB-T trackers on the short-term and long-term subsets.
 ## Results for RGB trackers on short-term subset
