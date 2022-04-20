@@ -119,7 +119,7 @@ td {
 #tabs a {
   float: left;
   position: relative;
-  padding: 0 40px;
+  padding: 0 0px;
   height: 0;
   line-height: 30px;
   text-transform: uppercase;
@@ -179,12 +179,12 @@ a:visited {
 }
 
 a:hover {
-  color: #FF4B33;
+  color: #FF0000;
   text-decoration: none
 }
 
 a:active {
-  color: #FF4B33;
+  color: #FF0000;
   text-decoration: none
 }
 
