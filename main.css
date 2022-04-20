@@ -119,13 +119,13 @@ td {
 #tabs a {
   float: left;
   position: relative;
-  padding: 0 0px;
+  padding: 0 40px;
   height: 0;
   line-height: 30px;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  border-right: 30px solid transparent;
+  border-right: 30px solid #3D3D3D;
   border-bottom: 30px solid #3D3D3D;
   /* border-bottom-color: #777\9; */
   opacity: .3;
