@@ -125,7 +125,7 @@ td {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  border-right: 30px solid #3D3D3D;
+  border-right: 30px solid transparent;
   border-bottom: 30px solid #3D3D3D;
   /* border-bottom-color: #777\9; */
   opacity: .3;
@@ -179,12 +179,12 @@ a:visited {
 }
 
 a:hover {
-  color: #FF0000;
+  color: #FF4B33;
   text-decoration: none
 }
 
 a:active {
-  color: #FF0000;
+  color: #FF4B33;
   text-decoration: none
 }
 
