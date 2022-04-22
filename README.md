@@ -41,8 +41,8 @@ gdown.download_folder(url, quiet=False, use_cookies=False)
 | HMFT | 35.5 | 41.4 |
 | HMFT_LT | 46.1 | 53.6 |
 # Evaluation toolkit & attribute annotation
-The sequence-level attribute annotation can be found in [BaiduDisk(code:)] and [GoogleDrive](https://drive.google.com/file/d/1tieIXdGvpnF0EChl6ergT4L3nj2mwFQq/view?usp=sharing).
-The evaluation toolkit can be found in [BaiduDisk(code:)] and [GoogleDrive](https://drive.google.com/file/d/1B3609O1TUC9WIfNqevKK-OOlGGiJ11m0/view?usp=sharing).
+The sequence-level attribute annotation can be found in [BaiduDisk(code:h24u)](https://pan.baidu.com/s/1sjufDVycKSg9_bz9jENxiw) and [GoogleDrive](https://drive.google.com/file/d/1tieIXdGvpnF0EChl6ergT4L3nj2mwFQq/view?usp=sharing).\
+The evaluation toolkit can be found in [BaiduDisk(code:aztt)](https://pan.baidu.com/s/1cUXFxxgZra8TpIPKIlGjbQ) and [GoogleDrive](https://drive.google.com/file/d/1B3609O1TUC9WIfNqevKK-OOlGGiJ11m0/view?usp=sharing).
 
 # Reference
 If you find this benchmark useful, please cite
