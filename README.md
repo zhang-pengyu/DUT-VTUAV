@@ -5,7 +5,7 @@ We release a large-scale benchmark for Visble-thermal UAV Tracking.
 
 * The dataset is available on [VTUAV](https://zhang-pengyu.github.io/DUT-VTUAV/).
 * Our paper is accepted by CVPR2022!!
-* Three versions~(full dataset, RGB split and mask split) are available. Please refer to our project page.
+* Three versions (full dataset, RGB split and mask split) are available. Please refer to our project page.
 # Main Feature
 * **_Large-scale_**: We collected nearly 1.7 million well-aligned RGB-T image pairs with 500 sequences for unveiling the power of RGB-T tracking(the largest RGB-T tracking benchmark so far).
 * **_High-diversity_**:13 sub-classes and 15 scenes cross 2 cities.
