@@ -43,7 +43,8 @@ gdown.download_folder(url, quiet=False, use_cookies=False)
 # Evaluation toolkit & attribute annotation
 The sequence-level attribute annotation can be found in [BaiduDisk(code:h24u)](https://pan.baidu.com/s/1sjufDVycKSg9_bz9jENxiw) and [GoogleDrive](https://drive.google.com/file/d/1tieIXdGvpnF0EChl6ergT4L3nj2mwFQq/view?usp=sharing).\
 The evaluation toolkit can be found in [BaiduDisk(code:99j9)](https://pan.baidu.com/s/1vzdsjLP9qWlwFHLBsYMLmQ) and [GoogleDrive](https://drive.google.com/file/d/1B3609O1TUC9WIfNqevKK-OOlGGiJ11m0/view?usp=sharing).
-
+ ## How to evaluate
+ 
 # Reference
 If you find this benchmark useful, please cite
 
