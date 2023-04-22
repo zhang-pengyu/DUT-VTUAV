@@ -45,8 +45,12 @@ The sequence-level attribute annotation can be found in [BaiduDisk(code:h24u)](h
 The evaluation toolkit can be found in [BaiduDisk(code:99j9)](https://pan.baidu.com/s/1vzdsjLP9qWlwFHLBsYMLmQ) and [GoogleDrive](https://drive.google.com/file/d/1B3609O1TUC9WIfNqevKK-OOlGGiJ11m0/view?usp=sharing).
 ## How to evaluate
 Note: The dataset should be extracted into the same folder.
+### RGB-T tracker evaluation
+* Modify the variable "basePath" in GenerateMat_ST.m and GenerateMat_LT.m
+* run GenerateMat_ST.m and GenerateMat_LT.m for generating the report files for short-term and long-term tracking.
+
 ### RGB tracker evaluation
- 
+
 # Reference
 If you find this benchmark useful, please cite
 
