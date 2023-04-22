@@ -50,6 +50,9 @@ Note: The dataset should be extracted into the same folder.
 * run GenerateMat_ST.m and GenerateMat_LT.m to generate the report files for short-term and long-term tracking
 * run plot_ST.m and plot_LT.m to generate the MSR and MPR curves.
 ### RGB tracker evaluation
+* Modify the variable "basePath" in GenerateMat_ST_RGB_only.m and GenerateMat_LT_RGB_only.m and move your results into "BB_results_RGB" folder
+* run GenerateMat_ST_RGB_only.m and GenerateMat_LT_RGB_only.m to generate the report files for short-term and long-term tracking
+* run plot_ST_RGB_only.m and plot_LT_RGB_only.m to generate the MSR and MPR curves.
 
 # Reference
 If you find this benchmark useful, please cite
