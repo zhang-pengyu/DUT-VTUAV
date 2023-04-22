@@ -46,9 +46,9 @@ The evaluation toolkit can be found in [BaiduDisk(code:99j9)](https://pan.baidu.
 ## How to evaluate
 Note: The dataset should be extracted into the same folder.
 ### RGB-T tracker evaluation
-* Modify the variable "basePath" in GenerateMat_ST.m and GenerateMat_LT.m
-* run GenerateMat_ST.m and GenerateMat_LT.m for generating the report files for short-term and long-term tracking.
-
+* Modify the variable "basePath" in GenerateMat_ST.m and GenerateMat_LT.m and move your results into "BB_results" folder
+* run GenerateMat_ST.m and GenerateMat_LT.m to generate the report files for short-term and long-term tracking
+* run plot_ST.m and plot_LT.m to generate the MSR and MPR curves.
 ### RGB tracker evaluation
 
 # Reference
